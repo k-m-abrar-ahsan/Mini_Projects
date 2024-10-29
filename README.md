@@ -1,20 +1,22 @@
-🔒 Secure Password Generator
+🔒 Secure Password Generator:
+
 Generate strong, customizable passwords with ease! This Secure Password Generator is a web-based application that lets users create complex passwords, ensuring data protection and personal security. With intuitive controls and robust cryptographic functions, it's built for everyone who needs to manage secure passwords for online accounts, servers, databases, and more.
 
 ![image](https://github.com/user-attachments/assets/4c74e04c-0aa6-412e-a404-5c304dd4116e)
 
-🚀 Features
+🚀 Features:
+
 Customizable Password Options: Choose password length and include lowercase, uppercase, numbers, and symbols as desired.
 Cryptographically Secure: Uses the browser's native crypto API for secure, unpredictable random values.
 One-Click Copy: Copy the generated password to the clipboard with a single click.
 Responsive Design: Optimized for all devices, with a modern, user-friendly interface.
 Clean and Simple Code: Well-structured JavaScript and modular CSS for easy maintenance and scalability.
-🌐 Live Demo
+🌐 Live Demo:
+
 Check out the live version of the Secure Password Generator here (replace with a live link if hosted).
 
-📂 Project Structure
+📂 Project Structure:
 bash
-Copy code
 📁 secure-password-generator
 ├── index.html          # HTML structure for the app
 ├── main.js             # Core JavaScript logic
@@ -25,7 +27,7 @@ Copy code
 └── fonts/              # Custom fonts (Oxanium in this case)
     └── Oxanium-Regular.ttf
     
-🛠️ How It Works
+🛠️ How It Works:
 User Inputs: Specify password length and the character types (lowercase, uppercase, numbers, symbols).
 Character Pool: Based on the selected options, the script dynamically builds a pool of allowed characters.
 Secure Random Selection: Uses the crypto.getRandomValues() method to generate secure, random indexes for character selection.
