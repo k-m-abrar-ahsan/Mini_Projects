@@ -19,19 +19,19 @@ Check out the live version of the Secure Password Generator here (replace with a
 bash
 📁 secure-password-generator
 ├── index.html          # HTML structure for the app
-
+|
 ├── main.js             # Core JavaScript logic
-
+|
 ├── styles.css          # Custom styling for the UI 
-
+|
 ├── images/             # Icons and assets
-
+|   |
 │   ├── file.png
-
+|   |
 │   ├── copy.png
-
+|
 └── fonts/              # Custom fonts (Oxanium in this case)
-
+    |
     └── Oxanium-Regular.ttf
     
 🛠️ How It Works:
