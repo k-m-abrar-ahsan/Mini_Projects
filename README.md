@@ -32,27 +32,37 @@ cd secure-password-generator
 Open in Browser: Just open index.html in your preferred browser to start using the app.
 
 📸 Screenshots
-Main Interface
+Main Interface:
+
 ![image](https://github.com/user-attachments/assets/909a3866-e586-4b2b-8c3a-e90389411554)
 
 
-Password Options
+Password Options:
+
 ![image](https://github.com/user-attachments/assets/59898082-ead5-470c-bf82-b5e6ad56b012)
 ![image](https://github.com/user-attachments/assets/ccd9ecc3-e6ba-4486-80db-c4a0ec447be4)
 
 
+Copy Functionality:
 
-Copy Functionality
 ![image](https://github.com/user-attachments/assets/84597fa4-4210-458e-86c4-3619aa683255)
 
 
-📚 Technologies Used
+📚 Technologies Used:
+
 HTML5: Structure and layout
+
 CSS3: Styling and responsive design
+
 JavaScript: Core functionality and cryptographic operations
+
 Crypto API: Ensures passwords are generated with high entropy and security
+
 Oxanium Font: Custom font for a sleek and modern look
+
 📝 Future Enhancements
-Add Advanced Symbols: Support for more special characters.
-Password Strength Indicator: Visually display the strength of generated passwords.
-History Tracking: Option to view previously generated passwords.
+*Add Advanced Symbols: Support for more special characters.
+
+*Password Strength Indicator: Visually display the strength of generated passwords.
+
+*History Tracking: Option to view previously generated passwords.
