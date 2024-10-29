@@ -15,24 +15,7 @@ Clean and Simple Code: Well-structured JavaScript and modular CSS for easy maint
 
 Check out the live version of the Secure Password Generator here (replace with a live link if hosted).
 
-📂 Project Structure:
-bash
-📁 secure-password-generator
-├── index.html          # HTML structure for the app
-|
-├── main.js             # Core JavaScript logic
-|
-├── styles.css          # Custom styling for the UI 
-|
-├── images/             # Icons and assets
-|   |
-│   ├── file.png
-|   |
-│   ├── copy.png
-|
-└── fonts/              # Custom fonts (Oxanium in this case)
-    |
-    └── Oxanium-Regular.ttf
+
     
 🛠️ How It Works:
 User Inputs: Specify password length and the character types (lowercase, uppercase, numbers, symbols).
@@ -44,7 +27,7 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/secure-password-generator.git
+git clone https://github.com/k-m-abrar-ahsan/secure-password-generator.git
 cd secure-password-generator
 Open in Browser: Just open index.html in your preferred browser to start using the app.
 
