@@ -3,7 +3,6 @@ Generate strong, customizable passwords with ease! This Secure Password Generato
 
 ![image](https://github.com/user-attachments/assets/4c74e04c-0aa6-412e-a404-5c304dd4116e)
 
-
 🚀 Features
 Customizable Password Options: Choose password length and include lowercase, uppercase, numbers, and symbols as desired.
 Cryptographically Secure: Uses the browser's native crypto API for secure, unpredictable random values.
