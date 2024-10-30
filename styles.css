@@ -107,3 +107,8 @@ label {
     width: 19px;
     height: 19px;
 }
+* {
+    font-family:Oxanium;
+    color: #4a4a4a; 
+    box-sizing: border-box; 
+}
