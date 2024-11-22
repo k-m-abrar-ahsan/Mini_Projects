@@ -109,6 +109,6 @@ label {
 }
 * {
     font-family:Oxanium;
-    color: #4a4a4a; 
-    box-sizing: border-box; 
+    color: #4a4a4a; /* Optional: Set a global text color */
+    box-sizing: border-box; /* Optional: Make sure padding doesn't affect width */
 }
