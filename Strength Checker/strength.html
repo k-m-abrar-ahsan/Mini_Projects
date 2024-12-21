@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Strength Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="tech-container">
+    <header>
+      <h1>Password Strength Checker</h1>
+      <p>Ensure your password is secure by meeting the criteria below</p>
+    </header>
+    <div class="password-container">
+      <div class="input-group">
+        <input type="password" id="password" class="input__field" placeholder="Enter your password" />
+        <img src="images/eye.png" class="input__icon" alt="Toggle visibility">
+      </div>
+      <div class="strength-info">
+        <div class="criteria">
+          <span class="low-upper-case">
+            <img src="images/red.png" alt="status"> Upper & Lower Case
+          </span>
+          <span class="one-number">
+            <img src="images/red.png" alt="status"> One Number
+          </span> 
+          <span class="one-special-char">
+            <img src="images/red.png" alt="status"> Special Character
+          </span>
+          <span class="eight-character">
+            <img src="images/red.png" alt="status"> Minimum 8 Characters
+          </span>
+        </div>
+      </div>
+      <div class="progress-bar-container">
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

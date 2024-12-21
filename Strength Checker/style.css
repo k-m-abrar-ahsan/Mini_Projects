@@ -1,0 +1,133 @@
+/* Global Styles */
+@font-face {
+    font-family: Oxanium;
+    src: url(fonts/Oxanium-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Oxanium;
+    color: #e0e0e0;
+    background: linear-gradient(135deg, #2b2d42, #1a1c29);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  /* Container */
+  .tech-container {
+    width: 90%;
+    max-width: 600px;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    /*backdrop-filter: blur(0px);*/
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+    color: #00d4ff;
+    text-shadow: 0 0 0px rgba(0, 212, 255, 0.8);
+  }
+  
+  
+  
+  
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+/* Password Strength Checker Styles */
+.password-container {
+  margin-top: 1rem;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.input__field {
+  padding: 1rem;
+  font-size: 1rem;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  outline: none;
+}
+
+.input__icon {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.strength-info {
+  margin-top: 1.5rem;
+}
+
+.criteria {
+  display: block;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.criteria span {
+  display: block;
+  text-align: left;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.criteria img {
+  width: 16px;
+  height: 16px;
+}
+
+.progress-bar {
+  height: 8px;
+  border-radius: 5px;
+  margin-top: 1rem;
+  background: #d32f2f;
+  width: 0%;
+  transition: width 0.3s ease;
+}
+
+.progress-bar-danger {
+  background: #d32f2f;
+}
+
+.progress-bar-warning {
+  background: #fbc02d;
+}
+
+.progress-bar-success {
+  background: #388e3c;
+}
