@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Interactive Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #363636;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #868383;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #dbd8d8;
+        }
+
+        .button-container {
+            margin-top: 20px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Homepage!</h1>
+        <p>Click on the buttons below to explore my mini-apps and favorite websites.</p>
+        
+        <div class="button-container">
+            <a href="Secure_Password_Generator/index.html" target="_blank">
+                <button>Secure Password Generator</button>
+            </a>
+            <a href="Strength_Checker/strength.html" target="_blank">
+                <button>Strength Checker</button>
+            </a>
+            <a href="https://mini-app-2.com" target="_blank">
+                <button>Mini App 2</button>
+            </a>
+            <button onclick="runMusicPlayer()">Run Music Player</button>
+        </div>
+    </div>
+
+    <script>
+        function runMusicPlayer() {
+        fetch("http://127.0.0.1:5000/run-music-player", {
+            method: "POST",
+            mode: "cors"
+        })
+        .then(response => response.text())
+        .then(data => alert(data))
+        .catch(error => console.error("Error:", error));
+    }
+    </script>
+    
+</body>
+</html>
