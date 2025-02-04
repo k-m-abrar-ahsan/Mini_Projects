@@ -65,24 +65,25 @@
             <a href="Strength_Checker/strength.html" target="_blank">
                 <button>Strength Checker</button>
             </a>
-            <a href="https://mini-app-2.com" target="_blank">
-                <button>Mini App 2</button>
-            </a>
+            <button onclick="runTTT()">Tic Tac Toe</button>
             <button onclick="runMusicPlayer()">Run Music Player</button>
-        </div>
-    </div>
 
-    <script>
-        function runMusicPlayer() {
-        fetch("http://127.0.0.1:5000/run-music-player", {
-            method: "POST",
-            mode: "cors"
-        })
-        .then(response => response.text())
-        .then(data => alert(data))
-        .catch(error => console.error("Error:", error));
-    }
-    </script>
+            <script>
+                function runMusicPlayer() {
+                    fetch("http://127.0.0.1:5000/run-music-player", { method: "POST" })
+                    .then(response => response.json())
+                    .then(data => alert(data.message || data.error))
+                    .catch(error => console.error("Error:", error));
+                }
+
+                function runTTT() {
+                    fetch("http://127.0.0.1:5000/run-ttt", { method: "POST" })
+                    .then(response => response.json())
+                    .then(data => alert(data.message || data.error))
+                    .catch(error => console.error("Error:", error));
+                }
+            </script>
+
     
 </body>
 </html>
